@@ -14,15 +14,15 @@ public class ShopRepoFile implements ShopService{
 	List<ShopDto> cartDtos=new ArrayList<>();
 	
 	//사료DB
-	File feedFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\feed\\feed.txt");
+	File feedFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\feed\\feed.txt");
 	List<ShopDto> feedDtos=new ArrayList<>();
 	
 	//간식DB
-	File gumFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\snack\\gum.txt");
-	File canFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\snack\\can.txt");
-	File bigSasamiFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\snack\\bigSasami.txt");
-	File smallSasamiFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\snack\\smallSasami.txt");
-	File sausageFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\snack\\sausage.txt");
+	File gumFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\snack\\gum.txt");
+	File canFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\snack\\can.txt");
+	File bigSasamiFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\snack\\bigSasami.txt");
+	File smallSasamiFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\snack\\smallSasami.txt");
+	File sausageFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\snack\\sausage.txt");
 	List<ShopDto> gumDtos=new ArrayList<>();
 	List<ShopDto> canDtos=new ArrayList<>();
 	List<ShopDto> bigSasamiDtos=new ArrayList<>();
@@ -30,54 +30,54 @@ public class ShopRepoFile implements ShopService{
 	List<ShopDto> sausageDtos=new ArrayList<>();
 
 	//목욕용품DB
-	File towelFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\bath\\towel.txt");
-	File shamRinFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\bath\\shamRin.txt");
-	File shampooFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\bath\\shampoo.txt");
+	File towelFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\bath\\towel.txt");
+	File shamRinFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\bath\\shamRin.txt");
+	File shampooFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\bath\\shampoo.txt");
 	List<ShopDto> towelDtos=new ArrayList<>();
 	List<ShopDto> shamRinDtos=new ArrayList<>();
 	List<ShopDto> shampooDtos=new ArrayList<>();
 	
 	//목욕용품DB
-	File supplFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\supplements\\supplements.txt");
+	File supplFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\supplements\\supplements.txt");
 	List<ShopDto> supplDtos=new ArrayList<>();
 	
 	//위생/배변/패드DB
-	File pottyPadFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\pottyPad\\pottyPad.txt");
-	File diaperFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\pottyPad\\diaper.txt");
+	File pottyPadFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\pottyPad\\pottyPad.txt");
+	File diaperFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\pottyPad\\diaper.txt");
 	List<ShopDto> pottyPadDtos=new ArrayList<>();
 	List<ShopDto> diaperDtos=new ArrayList<>();
 
 	//급식기/급수기DB
-	File feederFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\feeder\\feeder.txt");
-	File twinFeederFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\feeder\\twinFeeder.txt");
-	File feedStorageFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\feeder\\feedStorage.txt");
+	File feederFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\feeder\\feeder.txt");
+	File twinFeederFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\feeder\\twinFeeder.txt");
+	File feedStorageFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\feeder\\feedStorage.txt");
 	List<ShopDto> feederDtos=new ArrayList<>();
 	List<ShopDto> twinFeederDtos=new ArrayList<>();
 	List<ShopDto> feedStorageDtos=new ArrayList<>();
 
 	//고양이 사료DB
-	File catFeedFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\catFeed\\catFeed.txt");
+	File catFeedFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\catFeed\\catFeed.txt");
 	List<ShopDto> catFeedDtos=new ArrayList<>();
 
 	//고양이 간식DB
-	File snDropsFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\catSnack\\snDrops.txt");
-	File meatFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\catSnack\\meat.txt");
+	File snDropsFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\catSnack\\snDrops.txt");
+	File meatFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\catSnack\\meat.txt");
 	List<ShopDto> snDropsDtos=new ArrayList<>();
 	List<ShopDto> meatDtos=new ArrayList<>();
 	
 	//모래/화장실/식기DB
-	File catSandFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\catsOf\\catSand.txt");
-	File catToiletFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\catsOf\\catToilet.txt");
-	File catFeederFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\catsOf\\catFeeder.txt");
-	File catTwinFeederFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\catsOf\\catTwinFeeder.txt");
+	File catSandFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\catsOf\\catSand.txt");
+	File catToiletFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\catsOf\\catToilet.txt");
+	File catFeederFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\catsOf\\catFeeder.txt");
+	File catTwinFeederFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\catsOf\\catTwinFeeder.txt");
 	List<ShopDto> catSandDtos=new ArrayList<>();
 	List<ShopDto> catToiletDtos=new ArrayList<>();
 	List<ShopDto> catFeederDtos=new ArrayList<>();
 	List<ShopDto> catTwinFeederDtos=new ArrayList<>();
 
 	//로그인 저장소
-	File logIDFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\login\\ID.txt");
-	File logPWFile=new File("C:\\Users\\ITPS\\Documents\\dev\\java\\workspace\\ShopApp\\src\\service\\fileRepo\\login\\PW.txt");
+	File logIDFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\login\\ID.txt");
+	File logPWFile=new File("C:\\workspace\\ShopApp\\src\\service\\fileRepo\\login\\PW.txt");
 	List<ShopDto> logIDDtos=new ArrayList<>();
 	List<ShopDto> logPWDtos=new ArrayList<>();
 	
